@@ -2,6 +2,8 @@
 <html lang="en">
 	<head>
 		<title>SocketToMe</title>
+		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 		<script type="text/javascript">
 			var conn = new WebSocket('ws://<?=$_SERVER['SERVER_ADDR']?>:8080');
