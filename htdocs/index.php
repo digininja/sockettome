@@ -66,5 +66,9 @@
 			<input type="button" value="Send" onclick="chat_message()" />
 			<br />
 		</p>
+		<hr />
+		<p>
+			Lab created by Robin Wood - <a href="https://digi.ninja">DigiNinja</a>
+		</p>
 	</body>
 </html>
