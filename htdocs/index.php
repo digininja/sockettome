@@ -41,6 +41,9 @@
 					conn.send("C:" + msg);
 				}
 			}
+			function get_users() {
+				conn.send("U:");
+			}
 		</script>
 	</head>
 	<body>
