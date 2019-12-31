@@ -2,7 +2,7 @@
 
 Copyright(c) 2013, Robin Wood <robin@digininja.org>
 
-SocketToMe is little application I wrote to go along with my blog post on testing web sockets [1]. It combines chat, a simple number guessing game and a few other hidden features.
+SocketToMe is little application I wrote to go along with my blog post on [OWASP ZAP and WebSockets](https://digi.ninja/blog/zap_web_sockets.php). It combines chat, a simple number guessing game and a few other hidden features.
 
 The app is in two parts, the web socket app and a web page to access it. The whole lot is written PHP and is the first web socket work I've done so don't look on it as an example of how to do things.
 
@@ -42,5 +42,5 @@ Once you've started it all up the usage is easy, the chat system simply takes me
 
 Unless you have a friend who wants to play along with you, I didn't in testing, I simply had two browsers open and passed messages between them.
 
-There are a few other "hidden" features in the system, I cover how to find these in the testing web sockets [blog post](http://www.digininja.org/blog/testing_web_sockets.php). If you want to cheat and see what these features are, all the interesting code can be found in
+There are a few other "hidden" features in the system, I cover how to find these in the [Fuzzing WebSockets with ZAP](https://digi.ninja/blog/zap_fuzzing.php). If you want to cheat and see what these features are, all the interesting code can be found in
 `src/MyApp/SocketToMe.php`.
