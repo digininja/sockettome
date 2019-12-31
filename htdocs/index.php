@@ -66,7 +66,7 @@
 		</p>
 		<p>
 			Chat with other players in our exclusive chat room.<br />
-			<textarea cols="30" rows="30" disabled="disabled" id="receive" name="receive"></textarea><br />
+			<textarea cols="90" rows="30" disabled="disabled" id="receive" name="receive"></textarea><br />
 			<label for="chat">Chat:</label> <input id="chat" type="text" name="chat" value="" />
 			<input type="button" value="Send" onclick="chat_message()" />
 			<br />
