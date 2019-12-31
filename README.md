@@ -33,7 +33,7 @@ var conn = new WebSocket('ws://<?=$_SERVER['SERVER_ADDR']?>:8080');
 Changing the address as appropriate, e.g.:
 
 ```php
-var conn = new WebSocket('ws://192.168.1.0:99');</code></pre>
+var conn = new WebSocket('ws://192.168.1.0:99');
 ```
 
 ## Usage
